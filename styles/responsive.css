@@ -1,0 +1,60 @@
+/* Nav Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+  .nav__logo {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .Hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .first {
+    width: 100%;
+  }
+  .items li {
+    display: none;
+  }
+
+  .items li:last-child {
+    display: block;
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .bar li {
+    display: block;
+  }
+
+  .hero-title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+}
+
+/* Card Responsive */
+
+@media only screen and (max-width: 576px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

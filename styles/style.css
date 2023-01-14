@@ -1,7 +1,151 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.bar li {
+  display: none;
+}
+
+section {
+  margin-top: 6rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.nav__logo {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.items li,
+i {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+
+/* Hero Section Style */
+.Hero {
+  display: flex;
+  align-items: center;
+  /* height: 45vw; */
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.first {
+  width: 50%;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+
+.hero-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+
+.btn-primary {
+  border: none;
+  padding: 10px 24px;
+  background: #e02c6d;
+  border-radius: 41px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 26px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 17px 14px;
+}
+
+.card-title {
+  font-size: 28px;
+  color: #18191f;
+  font-weight: 500;
+}
+
+.card-price {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 4px;
+}
+
+.card-raiting,
+.star-item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-top: 4px;
+}
+
+.card-raiting {
+  gap: 12px;
+}
+
+.star-item li i {
+  color: gold;
+}
+
+.raiting-name {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  color: #5e6366;
+}
+
+.card-description {
+  letter-spacing: 0.018em;
+  font-weight: 500;
+  color: #787885;
+  margin-top: 8px;
 }

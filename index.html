@@ -9,6 +9,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
 
     <!-- Font Awesome -->
     <script
@@ -18,9 +19,12 @@
   </head>
   <body>
     <!-- ============ Header ============ -->
-    <header>
+    <header class="container">
       <nav>
-        <span>Influencer products</span>
+        <div class="bar">
+          <li><i class="fa-solid fa-bars"></i></li>
+          <span class="nav__logo">Influencer products</span>
+        </div>
         <div>
           <ul class="items">
             <li>Home</li>
@@ -28,10 +32,196 @@
             <li>Sign up</li>
             <li>Log In</li>
             <li><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li><img src="images/card.svg" alt="" /></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <!-- Main & Hero Section -->
+    <main class="container">
+      <div class="Hero">
+        <div class="first">
+          <h1 class="hero-title">Start your Journey as Influencer</h1>
+          <p class="hero-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+            vestibulum sed scelerisque eros. Lectus faucibus.
+          </p>
+          <button class="btn-primary">Preebook now</button>
+        </div>
+        <div>
+          <img src="images/main-camera.png" alt="main-camera" />
+        </div>
+      </div>
+
+      <!-- ============= Card Section =========== -->
+      <section>
+        <h3 class="section-title">Popular Collection</h3>
+        <div class="cards">
+          <div class="card">
+            <img src="images/tripod.png" alt="tripod" />
+            <h3 class="card-title">Flex Tripod</h3>
+            <p class="card-price">$50.48</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/mic.png" alt="microphone" />
+            <h3 class="card-title">microphone</h3>
+            <p class="card-price">$120.25</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/airpod.png" alt="Airbuds" />
+            <h3 class="card-title">Airbuds</h3>
+            <p class="card-price">$100.00</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/drone.png" alt="Drone" />
+            <h3 class="card-title">Drone</h3>
+            <p class="card-price">$980.25</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/lights.png" alt="Light Setup" />
+            <h3 class="card-title">Light Setup</h3>
+            <p class="card-price">$1200.00</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/setup.png" alt="Photoshoot set" />
+            <h3 class="card-title">Photoshoot set</h3>
+            <p class="card-price">$820.40</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/camera.png" alt="Vlogging Camera" />
+            <h3 class="card-title">Vlogging Camera</h3>
+            <p class="card-price">$1800.80</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/single-light.png" alt="Green Screen" />
+            <h3 class="card-title">Green Screen</h3>
+            <p class="card-price">$25.48</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/action.png" alt="Action Camera" />
+            <h3 class="card-title">Action Camera</h3>
+            <p class="card-price">$380.00</p>
+            <div class="card-raiting">
+              <div class="star-item">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </div>
+              <p class="raiting-name">4.99</p>
+            </div>
+            <p class="card-description">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
