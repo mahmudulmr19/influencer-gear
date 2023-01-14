@@ -149,3 +149,14 @@ i {
   color: #787885;
   margin-top: 8px;
 }
+
+.see {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.see p,
+i {
+  color: rgba(224, 44, 109, 0.87);
+  cursor: pointer;
+}
